@@ -1,1 +1,38 @@
-body {}
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: greenyellow;
+}
+
+.header {
+  grid-column: span 12;
+  background-color: blue;
+
+}
+
+.left {
+  grid-column: span 3;
+  background-color: red;
+}
+
+.main {
+  grid-column: span 6;
+  background-color:
+}
+
+.right {
+  grid-column: span 3;
+  background-color: aqua;
+}
+
+.footer {
+  grid-column: span 12;
+  background-color: green;
+
+}
+
+footer ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+}
