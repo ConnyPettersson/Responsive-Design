@@ -1,44 +1,54 @@
+body {
+  font-size: 24px;
+  background-color: orangered;
+}
+
 .container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  background-color: greenyellow;
+  /* display: grid;
+  grid-template-columns: repeat(12, 1fr); */
+  background-color: white;
+  padding: 1em;
 }
 
 .header {
-  grid-column: span 12;
-  background-color: blue;
-
+  /* grid-column: span 12; */
+  /* background-color: blue; */
+  font-size: 2em;
 }
 
-.left {
+/* .left {
   grid-column: span 3;
   background-color: red;
-}
+} */
 
 .main {
-  grid-column: span 6;
-  background-color:
+  /* grid-column: span 6; */
+  /* background-color: blueviolet; */
+  line-height: 1.3em;
 }
 
 .main img {
-  float: right;
-  margin: 0 0 10px 10px;
+  /* float: right;
+  margin: 0 0 10px 10px; */
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
-.right {
+/* .right {
   grid-column: span 3;
   background-color: aqua;
   position: relative;
-}
+} */
 
 .footer {
-  grid-column: span 12;
-  background-color: green;
+  /* grid-column: span 12;
+  background-color: green; */
 
 }
 
 footer ul {
-  display: flex;
+
   padding: 0;
   justify-content: space-evenly;
 }
@@ -46,11 +56,21 @@ footer ul {
 footer li {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+
 }
 
-.right a {
+.footer a {
+  padding: 1em 0;
+  display: block;
+  text-align: center;
+}
+
+.footer a:hover {
+  background-color: red;
+}
+
+/* .right a {
   position: absolute;
   top: 0;
   right: 0;
-}
+} */
